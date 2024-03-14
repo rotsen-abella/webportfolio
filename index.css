@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "JetBrains Mono", monospace;
+}
+ main{
+	background-image: url("./images/pexels-daniel-absi-952670.jpg");
+	background-size: cover;
+ }
+#landing{
+	background-color: rgb(255, 252, 230);
+	background-image: url("./images/background1.jpg");
+	background-size: contain;
+	
+}
+
+#landing h1{
+	font-family: "Questrial", sans-serif;
+	font-weight: bolder;
+	font-size: 55px;
+}
+
+#landing h4{
+	font-family: "Questrial", sans-serif;
+	font-weight: bold;
+	font-size: 45;
+}
+
+#about-me{
+	background-color: antiquewhite;
+}
+
+/* #landing img{
+	height: 750px;
+	width: 550px;
+	
+} */
+
+#section2{
+	background-color: rgb(250, 241, 231);
+	background-image: url("./images/circuit.jpg");
+	background-size: cover;
+	
+}
+
+
+#projects img{
+	height: 150px;
+	width: 250px;
+}
+
+nav{
+	background-color: rgb(53, 53, 53);
+}
+nav a{
+	color: azure;
+}
+
+#contact{
+	background-color:azure;
+}
+
+
+.google-map{
+	padding-bottom: 50%;
+	position: relative;
+}
+
+.google-map iframe{
+	height: 99%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: relative;
+}
